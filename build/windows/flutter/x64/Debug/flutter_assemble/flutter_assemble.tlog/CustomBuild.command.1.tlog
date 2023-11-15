@@ -1,0 +1,28 @@
+^C:\USERS\RARA\DOCUMENTS\SEMESTER 3\PBP\MOBILE\SHOPPING_LIST\BUILD\WINDOWS\CMAKEFILES\EBBE6BDA6904ED79615D6679F4EF6C16\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Rara\Downloads\Apps\flutter_windows_3.13.9-stable\flutter "PROJECT_DIR=C:\Users\Rara\Documents\SEMESTER 3\PBP\MOBILE\shopping_list" FLUTTER_ROOT=C:\Users\Rara\Downloads\Apps\flutter_windows_3.13.9-stable\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\Rara\Documents\SEMESTER 3\PBP\MOBILE\shopping_list\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\Rara\Documents\SEMESTER 3\PBP\MOBILE\shopping_list" "FLUTTER_TARGET=C:\Users\Rara\Documents\SEMESTER 3\PBP\MOBILE\shopping_list\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC8wNTQ1Zjg3MDVkZjMwMTg3N2Q3ODcxMDdiYWMxYTZlOWZjOWVlMWFkLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\Rara\Documents\SEMESTER 3\PBP\MOBILE\shopping_list\.dart_tool\package_config.json" C:/Users/Rara/Downloads/Apps/flutter_windows_3.13.9-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\RARA\DOCUMENTS\SEMESTER 3\PBP\MOBILE\SHOPPING_LIST\BUILD\WINDOWS\CMAKEFILES\DBF4D5C8B5B36BE366AF837C6BFF9DD4\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\RARA\DOCUMENTS\SEMESTER 3\PBP\MOBILE\SHOPPING_LIST\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/Rara/Documents/SEMESTER 3/PBP/MOBILE/shopping_list/windows" "-BC:/Users/Rara/Documents/SEMESTER 3/PBP/MOBILE/shopping_list/build/windows" --check-stamp-file "C:/Users/Rara/Documents/SEMESTER 3/PBP/MOBILE/shopping_list/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

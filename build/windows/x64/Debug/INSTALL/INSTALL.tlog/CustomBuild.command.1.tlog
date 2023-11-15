@@ -1,0 +1,10 @@
+^C:\USERS\RARA\DOCUMENTS\SEMESTER 3\PBP\MOBILE\SHOPPING_LIST\BUILD\WINDOWS\CMAKEFILES\8C842F4E5F08102ACF6115485F45C17F\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
